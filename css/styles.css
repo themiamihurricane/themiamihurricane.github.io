@@ -1,5 +1,25 @@
 body {
+  line-height: 1.75;
+  font-size: 18px;
+}
 
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: orange;
+}
+
+a {
+  /* Allows link to change color...in a cool way. */
+  -o-transition:.8s;
+  -ms-transition:.8s;
+  -moz-transition:.8s;
+  -webkit-transition:.8s;
+  transition:.8s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 .container {
@@ -12,11 +32,19 @@ body {
   width: 500px;
   display: block;
   margin: auto;
+  padding: 1.5em;
 
   position: relative;
   top: 175px;
+
+  border: solid 1px black;
+  overflow: auto;
 }
 
 .welcome-img img{
-  float: left;
+  float: right;
+}
+
+.welcome-text p a {
+
 }
