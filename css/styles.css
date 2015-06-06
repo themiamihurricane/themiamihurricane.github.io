@@ -1,0 +1,22 @@
+body {
+
+}
+
+.container {
+  width: 960px;
+  display: block;
+  margin: 0 auto;
+}
+
+.welcome {
+  width: 500px;
+  display: block;
+  margin: auto;
+
+  position: relative;
+  top: 175px;
+}
+
+.welcome-img img{
+  float: left;
+}
