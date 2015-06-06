@@ -58,8 +58,9 @@ table {
 
 
 body {
+  font-family: sans-serif;
   line-height: 1.75;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -102,6 +103,7 @@ a:hover {
 
 .welcome-img img{
   float: right;
+  margin-left: 0.5em;
 }
 
 .welcome-text p a {
